@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    height: 40px;
+    width: 100px;
+}
+
+.nav-link{
+    color: white;
+}
+ .img-banner{
+    height: 190px;
+    width: 100%;
+ }
+
+ body{
+   background: -webkit-linear-gradient(0deg, #f7f7f7,#86bff3);                                                                              
+ }
+
+
+ .card{
+    height: 400px;
+    transition: all 0.2s;
+ }
+
+ .card:hover{
+   transform: scale(1.15);
+ }
+ .img-card{
+    height: 40%;
+ }
+
+ .content-cards{
+   min-height: 36vh;
+ }
+ .social-Network{
+    height: 30px;
+ }
+ .details-content{
+   box-shadow: 16px 14px 20px black;
+   border-radius: 10px;
+ }
+
+ .contact{
+   min-height: 80vh;
+ }
+ .details{
+    width: 100vw;
+    min-height: 82vh;
+ }
+ .imgDetails{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.table th, .table td {
+   width: 33.33%; /* Ajusta el ancho a un valor fijo */
+}
